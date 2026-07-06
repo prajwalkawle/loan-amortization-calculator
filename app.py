@@ -80,7 +80,7 @@ calculator = LoanCalculator(
     prepayments=prepayments_dict,
 )
 
-df_schedule = calculator.print_schedule()
+df_schedule = calculator.generate_schedule()
 
 # ---------------------------------------------------
 # Executive Summary
